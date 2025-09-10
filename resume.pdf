@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1234
+>>
+stream
+BT
+/F1 12 Tf
+100 750 Td
+(Your Name) Tj
+0 -20 Td
+(Computer Science Student) Tj
+0 -20 Td
+(Email: your.email@example.com) Tj
+0 -20 Td
+(Phone: +1 (555) 123-4567) Tj
+0 -40 Td
+(EDUCATION) Tj
+0 -20 Td
+(Seneca Polytechnic) Tj
+0 -15 Td
+(Computer Programming and Analysis) Tj
+0 -15 Td
+(GPA: 3.6 | September 2023 - Present) Tj
+0 -40 Td
+(SKILLS) Tj
+0 -20 Td
+(Languages: C, C++, C#, Python, JavaScript, TypeScript, HTML, CSS) Tj
+0 -20 Td
+(Frameworks: React.js, Next.js, Express.js, Tailwind CSS, Bootstrap) Tj
+0 -20 Td
+(Tools: Docker, Git/GitHub, Turborepo, Firebase, MongoDB, PostgreSQL) Tj
+0 -40 Td
+(PROJECTS) Tj
+0 -20 Td
+(Serenity - Social Music Streaming Platform) Tj
+0 -15 Td
+(Technologies: React.js, Node.js, Firebase, WebSockets) Tj
+0 -15 Td
+(Built real-time group listening and chat features) Tj
+0 -20 Td
+(Flopay - Wallet Application) Tj
+0 -15 Td
+(Technologies: Next.js, TypeScript, Prisma, PostgreSQL, Docker) Tj
+0 -15 Td
+(Developed comprehensive payment processing system) Tj
+0 -20 Td
+(Assembly Line Simulator) Tj
+0 -15 Td
+(Technologies: C++, OOP, Template Programming) Tj
+0 -15 Td
+(Modular simulator for multi-stage workflow management) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000001600 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1658
+%%EOF
