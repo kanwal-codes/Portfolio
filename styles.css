@@ -594,6 +594,18 @@ section {
     margin-bottom: 2rem;
 }
 
+.resume-section .btn-secondary {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.resume-section .btn-secondary:hover {
+    background: #1d4ed8;
+    color: white;
+    transform: translateY(-2px);
+}
+
 /* Footer */
 .footer {
     background: #1f2937;
