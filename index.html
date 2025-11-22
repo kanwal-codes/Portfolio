@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanwaljot Singh | Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <!-- Aesthetic Overlays -->
+    <div class="noise-overlay"></div>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">&lt;Kanwaljot /&gt;</a>
+                <ul class="nav-links">
+                    <li><a href="#about">01. About</a></li>
+                    <li><a href="#work">02. Work</a></li>
+                    <li><a href="#experience">03. Experience</a></li>
+                    <li><a href="#contact">04. Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <span class="hero-intro">Hi, my name is</span>
+                <h1>Kanwaljot Singh.</h1>
+                <h1 style="color: var(--secondary-color);">I build things for the web.</h1>
+                <p>
+                    I'm a Full-Stack Developer based in Toronto, specializing in building scalable web applications
+                    with Next.js, TypeScript, and PostgreSQL.
+                </p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn btn-primary">Check out my work</a>
+                    <a href="#contact" class="btn btn-outline">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="reveal"><span class="text-accent mono">01.</span> About Me</h2>
+            <div class="about-grid reveal">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Kanwaljot, a developer with a passion for creating efficient and scalable digital
+                        experiences.
+                        My journey in tech started with hands-on IT support, which gave me a deep understanding of user
+                        needs and system troubleshooting.
+                    </p>
+                    <br>
+                    <p>
+                        Today, I focus on the full stack, leveraging modern technologies like <strong>Next.js
+                            15</strong> and <strong>PostgreSQL</strong>
+                        to build robust applications. I enjoy solving complex problems, whether it's optimizing API
+                        response times or designing
+                        real-time collaboration features.
+                    </p>
+                    <br>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">Next.js</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">AWS</div>
+                        <div class="skill-item">Tailwind</div>
+                    </div>
+                </div>
+                <!-- Could add a profile pic here later, keeping it text-heavy for now as per "tech" vibe -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Moved Up) -->
+    <section id="work" class="section-padding">
+        <div class="container">
+            <h2 class="reveal"><span class="text-accent mono">02.</span> Some Things I've Built</h2>
+            <div class="project-grid reveal">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i data-feather="folder" class="folder-icon"></i>
+                        <div class="project-links">
+                            <a href="#"><i data-feather="github"></i></a>
+                            <a href="#"><i data-feather="external-link"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">FloPay</h3>
+                    <p class="project-desc">
+                        A monorepo-based multi-app architecture using Turborepo. Features secure authentication via
+                        NextAuth.js
+                        and serverless API routes with Prisma transactions.
+                    </p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                        <span>PostgreSQL</span>
+                        <span>Prisma</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i data-feather="folder" class="folder-icon"></i>
+                        <div class="project-links">
+                            <a href="#"><i data-feather="github"></i></a>
+                            <a href="#"><i data-feather="external-link"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">MapleMover</h3>
+                    <p class="project-desc">
+                        Interactive analytics dashboard visualizing live transit data. Optimized API refresh rates
+                        and automated validation pipelines for precise mapping.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>Docker</span>
+                        <span>Plotly</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i data-feather="folder" class="folder-icon"></i>
+                        <div class="project-links">
+                            <a href="#"><i data-feather="github"></i></a>
+                            <a href="#"><i data-feather="external-link"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Serenity</h3>
+                    <p class="project-desc">
+                        Real-time collaboration and music-sharing platform. Enables live messaging, shared playlists,
+                        and cross-user music discovery.
+                    </p>
+                    <div class="project-tech">
+                        <span>Next.js 15</span>
+                        <span>Firebase</span>
+                        <span>Socket.IO</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Moved Down) -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <h2 class="reveal"><span class="text-accent mono">03.</span> Where I've Worked</h2>
+            <div class="experience-list reveal">
+
+                <div class="experience-item">
+                    <div class="exp-role">IT Support Assistant</div>
+                    <span class="exp-company">@ Dasmesh Public School</span>
+                    <span class="exp-date">Sept 2021 – May 2023</span>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;">
+                            <span class="text-accent">▹</span> Resolved 100+ technical issues across Windows OS, Office
+                            365, and networks with a 95% resolution rate.
+                        </li>
+                        <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;">
+                            <span class="text-accent">▹</span> Supported 200+ users by troubleshooting hardware, Wi-Fi,
+                            and Google Workspace.
+                        </li>
+                        <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;">
+                            <span class="text-accent">▹</span> Automated device setup and authored 15+ guides, reducing
+                            preparation time by 40%.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding" style="border-bottom: none;">
+        <div class="container reveal">
+            <div class="contact-content">
+                <span class="mono text-accent">04. What's Next?</span>
+                <h2 style="margin-top: 1rem; font-size: 3rem;">Get In Touch</h2>
+                <p style="color: var(--secondary-color); margin-bottom: 2rem;">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll try my best to get back to you!
+                </p>
+                <a href="mailto:kanwal.codes17@gmail.com" class="contact-email">kanwal.codes17@gmail.com</a>
+                <div style="margin-top: 2rem;">
+                    <a href="https://github.com/kanwal-codes" class="btn btn-outline">Check out my GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Designed & Built by Kanwaljot Singh</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
